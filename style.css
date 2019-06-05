@@ -1,0 +1,26 @@
+.animate {
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+.animate.animated {
+    filter: alpha(opacity=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+    opacity: 1;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+}
+
+
+/*Estilos para o conteúdo*/
+p#title { text-align: center; width: 100%; }
+.container .row { text-align: center !important; width: 100%; }
+body{ padding-top: 40px; }
+.center{text-align: center !important; }
+.espec p{ text-align: center !important; width: 100% !important; }
+hr { width: 100%; }
